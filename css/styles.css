@@ -135,7 +135,7 @@ body {
 .info:hover,
 .info:focus {
     color: var(--accent-color);
-    transition: var(--accent-color) 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* Links */
@@ -147,7 +147,7 @@ a {
 a:hover,
 a:focus {
     color: var(--accent-color);
-    transition: var(--accent-color) 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 ul {
     list-style-type: none;
@@ -184,7 +184,7 @@ ul {
 .btn:hover,
 .btn:focus {
     background-color:var(--accent-color);
-    transition: var(--accent-color) 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 button {
     font-family: inherit;
@@ -282,7 +282,7 @@ button {
 .third-icons-link:hover,
 .third-icons-link:focus {
     background-color: var(--accent-color);
-    transition: var(--accent-color) 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .job-name {
     padding: 8px 0;
@@ -308,9 +308,7 @@ button {
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
         0px 1px 1px rgba(46, 47, 66, 0.16),
         0px 2px 1px rgba(46, 47, 66, 0.08);
-    transition: 0px 1px 6px rgba(46, 47, 66, 0.08),
-        0px 1px 1px rgba(46, 47, 66, 0.16),
-        0px 2px 1px rgba(46, 47, 66, 0.08) 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .fourth-list:hover .overlay {
     transform: translateY(0);
@@ -343,6 +341,9 @@ button {
     letter-spacing: 0.02em;
     color: var(--darkwhite-color);
     background-color: var(--mainblue-color);
+}
+.job-name .paragraphs {
+    margin-bottom: 8px;
 }
 /* Shared Classes in Section 2,3,4*/
 .headers {
@@ -411,7 +412,7 @@ button {
 .footer-icons-link:hover,
 .footer-icons-link:focus {
     background-color: #31D0AA;
-    transition: #31d0aa 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-right-icon {
